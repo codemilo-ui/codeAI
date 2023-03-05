@@ -1,34 +1,72 @@
 [
     {
         "message": "Hi",
-        "response": ["Hello!", "Hi there!", "Hi!"]
+        "response": [
+            "Hello!",
+            "Hi there!",
+            "Hi!"
+        ]
     },
     {
         "message": "How are you?",
-        "response": ["I'm doing well, thank you!", "I'm good. How are you?", "I'm fine, thanks."]
+        "response": [
+            "I'm doing well, thank you!",
+            "I'm good. How are you?",
+            "I'm fine, thanks."
+        ]
     },
     {
         "message": "What's up?",
-        "response": ["Nothing much. What's up with you?", "Just hanging out. How about you?", "Not a lot. How about you?"]
+        "response": [
+            "Nothing much. What's up with you?",
+            "Just hanging out. How about you?",
+            "Not a lot. How about you?"
+        ]
     },
     {
         "message": "Goodbye",
-        "response": ["Goodbye!", "See you later!", "Bye!"]
+        "response": [
+            "Goodbye!",
+            "See you later!",
+            "Bye!"
+        ]
     },
     {
         "message": "What's your name?",
-        "response": ["My name is Chatbot.", "I'm Chatbot.", "I don't have a name. You can call me Chatbot."]
+        "response": [
+            "My name is Chatbot.",
+            "I'm Chatbot.",
+            "I don't have a name. You can call me Chatbot."
+        ]
     },
     {
         "message": "What do you like to do?",
-        "response": ["I like chatting with people.", "I enjoy learning new things.", "I don't really have any preferences."]
+        "response": [
+            "I like chatting with people.",
+            "I enjoy learning new things.",
+            "I don't really have any preferences."
+        ]
     },
     {
         "message": "Tell me a joke.",
-        "response": ["Why did the tomato turn red? Because it saw the salad dressing!", "What do you call a fake noodle? An impasta!", "Why don't scientists trust atoms? Because they make up everything!"]
+        "response": [
+            "Why did the tomato turn red? Because it saw the salad dressing!",
+            "What do you call a fake noodle? An impasta!",
+            "Why don't scientists trust atoms? Because they make up everything!"
+        ]
     },
     {
         "message": "What's the weather like today?",
-        "response": ["I'm sorry, I don't have access to that information.", "I'm not sure. You can check the weather online.", "It looks like it might rain."]
+        "response": [
+            "I'm sorry, I don't have access to that information.",
+            "I'm not sure. You can check the weather online.",
+            "It looks like it might rain."
+        ]
+    },
+    {
+        "message": "yowassup",
+        "response": [
+            "Nothing much."
+        ]
     }
 ]

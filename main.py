@@ -15,9 +15,11 @@ def save_messages(messages):
 def generate_response(message):
     global messages
     message = message.lower()  # Convert the message to lowercase
-    message = message.translate(str.maketrans('', '', string.punctuation))  # Remove punctuation from the message
+    message = message.translate(str.maketrans('', '', string.punctuation))  # Remove all punctuation characters from the message
+    message = ''.join(message.split())  # Remove all whitespace characters from the message
     for msg in messages:
-        msg_without_punc = msg['message'].translate(str.maketrans('', '', string.punctuation))  # Remove punctuation from the message in the data
+        msg_without_punc = msg['message'].translate(str.maketrans('', '', string.punctuation))  # Remove all punctuation characters from the message in the data
+        msg_without_punc = ''.join(msg_without_punc.split())  # Remove all whitespace characters from the message in the data
         if msg_without_punc.lower() == message:  # Convert the message in the data to lowercase for comparison
             return random.choice(msg['response'])
     else:
